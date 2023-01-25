@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Screenshot Extension</title>
+</head>
+
+<body>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+        }
+
+        .popup {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1 {
+            font-size: 1.5em;
+        }
+
+        button {
+            font-size: 1em;
+            margin: 1em;
+            padding: 0.5em;
+            border-radius: 12%;
+            cursor: pointer;
+            background-color: #f1f1f1;
+        }
+
+        canvas {
+            border: 1px solid black;
+        }
+    </style>
+
+    <div class="popup">
+        <h1>Capture The Screen</h1>
+        <button id="screenshot-button">Take Screenshot</button>
+        <canvas id="screenshot-canvas"></canvas>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>
+
+<!-- Create the above UI better with css -->

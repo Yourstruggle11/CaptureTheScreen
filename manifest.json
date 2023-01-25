@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Capture The Screen",
+    "description": "Take screenshots of the current webpage and save them to your local machine.",
+    "version": "1.0",
+    "permissions": ["activeTab", "downloads"],
+    "action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    }
+}
